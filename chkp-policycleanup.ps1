@@ -358,7 +358,7 @@ function chkp-accessrules
             'comments'=$i.comments
             'install-on'=$i.'install-on'.name
             'enabled'=$i.enabled
-            'disable-date'=$i.'custom-fields'.'field-3'
+            'disable-date'=$i.'custom-fields'.'field-3' #change this line to use another custom field
             'hits'=$i.hits.value
             'creation-time'=$i.'meta-info'.'creation-time'.'iso-8601'
             'owner'=$i.'meta-info'.creator
@@ -419,7 +419,7 @@ param
             "enabled"="false"
             "layer"=$accesslayer
             "custom-fields"=@{
-                "field-3"=get-date -Format "dd/MM/yyyy"
+                "field-3"=get-date -Format "dd/MM/yyyy" #change this line to use another custom field
             }
         }
 
