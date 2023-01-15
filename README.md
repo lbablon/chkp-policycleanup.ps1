@@ -45,10 +45,6 @@ All changes can be exported as a html report by using the -Output parameter. The
 ## Examples
 
 ```
-"./chkp-nohitrules.ps1" -Server 192.168.1.50 -user admin -AccessLayer "Standard"
-```
-
-```
 "./chkp-policycleanup.ps1" -Server 192.168.1.50 -user admin -AccessLayer "Standard" -DeleteAfter 2
 ```
 
