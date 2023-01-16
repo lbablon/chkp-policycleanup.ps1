@@ -75,3 +75,7 @@ Runs the script but only displays changes that would have been made to the datab
 Runs the script and export the results into html file "results.html".
 
 ## Credits
+
+Written by Lucas Bablon
+
+This script was inspired by [CheckPointSW](https://github.com/CheckPointSW)'s own python script, however it is not a powershell translation of the original script. Both scripts differ in functionalities, parameters and code structure. You can find the python script right [here](https://github.com/CheckPointSW/PolicyCleanUp). 
